@@ -1,0 +1,47 @@
+Fonksiyonellik
+
+Uygulama, kullanıcıların bir kategori seçerek gider eklemesine izin veriyor mu?
+Giderler, ilgili kategorileri altında düzgün şekilde görüntüleniyor mu?
+Kullanıcılar gider detaylarını görüntüleyebiliyor mu?
+Kullanıcılar giderleri silebiliyor mu ve silme işlemi doğru şekilde yansıtılıyor mu?
+Ekranlar arasında gezinme düzgün çalışıyor mu?
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Kod Kalitesi
+
+Kod Yapısı: Proje iyi organize edilmiş mi, klasör yapısı net mi?
+Okunabilirlik: Değişken ve fonksiyon isimleri açıklayıcı ve anlamlı mı?
+Yeniden Kullanılabilirlik: Ortak UI bileşenleri (button, input, liste öğeleri) ayrı bir bileşen olarak oluşturulmuş mu?
+Hooks Kullanımı: React Hooks (useState, useEffect) doğru şekilde kullanılmış mı?
+Modülerlik: Mantık ve UI düzgün bir şekilde ayrılmış mı (ör. yardımcı fonksiyonlar ayrı bir dosyada mı)?
+Gereksiz Kod: Kullanılmayan veya gereksiz kod var mı?
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+UI/UX
+
+UI görsel olarak temiz ve kullanımı kolay mı?
+Bileşenler doğru ve tutarlı bir şekilde stilize edilmiş mi?
+Farklı ekran boyutlarında düzen bozulmadan çalışıyor mu?
+theme klasörü, renkler, fontlar ve boşluklar için doğru şekilde kullanılmış mı?
+Gider listesi anlaşılır ve net bir şekilde görüntüleniyor mu?
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Hata Yönetimi
+
+Input doğrulama mekanizmaları var mı (ör. boş alanların veya geçersiz miktarların engellenmesi)?
+Varsayılan değer durumları düzgün ele alınıyor mu (ör. henüz eklenmiş gider yoksa uygun bir mesaj gösteriliyor mu)?
+Kullanıcı hataları için hata mesajları veya UI geri bildirimleri sağlanıyor mu (ör. geçersiz girişler için)?
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Syntax ve Performans
+
+Arrow function kullanımı uygun mu?
+Sabitler ve tekrar kullanılabilir değerler ayrı bir dosyada saklanmış mı (ör. hardcoded string değerlerinden kaçınılmış mı)?
+Stiller, bileşenlerin içinde inline olarak yazılmış mı?
+useEffect gibi fonksiyonlar best practicelere uygun şekilde kullanılmış mı?
+
+----------------------------------------------------------------------------------------------------------------------------------------
